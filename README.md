@@ -19,8 +19,8 @@ You will need to create a `clients.json` file with the following properties. Thi
 
 [
     "client_name": "Client",
-        // If a file has been modified over this treshold, 
-        // then it will be highlighted on the table.
+        # If a file has been modified over this treshold, 
+        # then it will be highlighted on the table.
         "treshold_hours": 2,  
         "feeds": [
             {
