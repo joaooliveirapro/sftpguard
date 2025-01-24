@@ -65,10 +65,13 @@ This is also exported as `data.txt`.
 
 
 ## Installation
+Build from source and run it. 
 ```sh
+# Windows
 git clone https://github.com/joaooliveirapro/sftpguard.git
 cd sftpguard
-make build # go build -o sftpguard.exe ./src
+make build       # (go build -o sftpguard.exe ./src)
+.\sftpguard.exe  # launch script (assumes clients.json is configured)
 ```
 
 
