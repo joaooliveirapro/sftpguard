@@ -4,11 +4,11 @@ SFTP Guard is a custom CLI script that checks files in SFTP servers for their up
 ## Features
 - 🔎 Regex match to include/exclude paths
 - ⚡ Dynamic regex strings (use {yyyy}, {mm}, {dd} to create dynamic regex strings before regex compilation). {yyyy} gets replaced with the current year, {mm} with current month (with leading 0) and {dd} current day (with leading 0).
-```json
-Using the following regex pattern:
+```py
+# Using the following regex pattern:
 "(?si)Dynamic_Filename_{yyyy}{mm}{dd}.*"
 
-will result in the following regex compilation (on the day 24 Jan 2025)
+#will result in the following regex compilation (on the day 24 Jan 2025)
 "(?si)Dynamic_Filename_20240124.*" 
 ```
 

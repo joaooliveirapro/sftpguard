@@ -1,0 +1,23 @@
+[
+    {
+        "client_name": "",
+        "treshold_hours": 1,
+        "feeds": [
+            {
+                "feed_name": "",
+                "host": "",
+                "filepaths": [],
+                "directories": [],
+                "regex": [
+                    {
+                        "directory": "",
+                        "patterns": []
+                    }
+                ],
+                "port": 22,
+                "username": "",
+                "password": ""
+            }
+        ]
+    }
+]
