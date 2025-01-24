@@ -14,7 +14,7 @@ SFTP Guard is a custom CLI script that checks files in SFTP servers for their up
 
 
 ## Usage
-You will need to create a `clients.json` file with the following properties. This file must be in the same directory as the executable.
+You will need to create a `clients.json` file with the following properties. This file must be in the same directory as the executable. You can [use this template](https://github.com/joaooliveirapro/sftpguard/blob/main/src/clients.template.json).
 ```py
 [
     "client_name": "Client",
