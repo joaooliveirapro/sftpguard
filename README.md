@@ -19,7 +19,9 @@ You will need to create a `clients.json` file with the following properties. Thi
 
 [
     "client_name": "Client",
-        "treshold_hours": 2, // If a file has been modified over this treshold, then it will be highlighted on the table. 
+        // If a file has been modified over this treshold, 
+        // then it will be highlighted on the table.
+        "treshold_hours": 2,  
         "feeds": [
             {
                 "feed_name": "some name",
@@ -28,12 +30,14 @@ You will need to create a `clients.json` file with the following properties. Thi
                 "filepaths": [
                     "/path/to/my/file.xml"
                 ], 
-                // If all files in a directory must be considered, add the directory path here. It's not recursive.
+                // If all files in a directory must be considered, add the directory path here. 
+                // It's not recursive.
                 "directories": [
                     "/list/all/here/",
                     "/list/all/here/too"
                 ],
-                // For more complex file lookup use a regex match pattern. Can also use {yyyy}, {mm}, {dd} for dynamic regex string compilation.
+                // For more complex file lookup use a regex match pattern. 
+                // Can also use {yyyy}, {mm}, {dd} for dynamic regex string compilation.
                 "regex": [
                     {
                         // Directory to apply the regex lookup
