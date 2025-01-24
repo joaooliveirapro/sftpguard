@@ -64,5 +64,13 @@ A table is shown with
 This is also exported as `data.txt`.
 
 
+## Installation
+```sh
+git clone https://github.com/joaooliveirapro/sftpguard.git
+cd sftpguard
+make build # go build -o sftpguard.exe ./src
+```
+
+
 ### License
 The MIT License (MIT)
