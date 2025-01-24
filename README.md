@@ -59,7 +59,7 @@ You will need to create a `clients.json` file with the following properties. Thi
 
 ## Output
 A table is shown with 
-![example output](https:#github.com/joaooliveirapro/sftpguard/blob/main/assets/example1.png)
+![example output](https://github.com/joaooliveirapro/sftpguard/blob/main/assets/example1.png)
 
 This is also exported as `data.txt`.
 
